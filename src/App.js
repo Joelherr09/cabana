@@ -5,6 +5,8 @@ import Cards from './components/Cards';
 import Footer from './components/Footer';
 import SectionLosBarcos from './components/SectionLosBarcos';
 import SectionConstructora from './components/SectionConstructora';
+import SectionGimnasio from './components/SectionGimnasio';
+import Contacto from './components/Contacto';
 
 function App() {
   return (
@@ -14,7 +16,8 @@ function App() {
         <Cards/>
         <SectionLosBarcos/>
         <SectionConstructora/>
-        <SectionLosBarcos/>
+        <SectionGimnasio/>
+        <Contacto/>
         <Footer/>
     </div>
   );
