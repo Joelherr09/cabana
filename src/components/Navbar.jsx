@@ -15,7 +15,6 @@ const Navbar = () => {
             <img className='' src={Logo} alt="" />
         </div>
         <ul className='hidden md:flex'>
-            <li className='p-4'>Inicio</li>
             <li className='p-4'>Inmobiliaria</li>
             <li className='p-4'>Constructora</li>
             <li className='p-4'>Gimnasio</li>

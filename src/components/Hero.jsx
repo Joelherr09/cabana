@@ -11,7 +11,7 @@ const Hero = () => {
                 <p>Somos una empresa joven nacida el año 2021. La magia del lugar junto con ese inexplicable magnetismo nos motivó a dejar Santiago para radicarnos definitivamente en este maravilloso balneario llamado Guanaqueros.</p>
                 <button className='bg-[#1b1464] w-[200px] rounded-[2rem] font-medium my-6 mx-auto py-3 text-white flex items-center justify-center gap-2'>Conoce más <FaArrowRightLong/></button>
             </div>
-            <img className='w-[70%] h-[400px] mx-auto my-4 rounded-md' src={hero} alt="/" />
+            <img className='md:w-[70%] sm:md:w-[50%] w-[90%] h-[400px] mx-auto my-4 rounded-md' src={hero} alt="/" />
         </div>
     </div>
   )
