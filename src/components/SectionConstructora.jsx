@@ -1,6 +1,5 @@
 import React from 'react'
 import hero from '../assets/hero-section-cabana.png'
-import { FaArrowRightLong } from "react-icons/fa6";
 
 const SectionConstructora = () => {
   return (
