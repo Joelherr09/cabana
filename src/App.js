@@ -7,13 +7,12 @@ import SectionLosBarcos from './components/SectionLosBarcos';
 import SectionConstructora from './components/SectionConstructora';
 import SectionGimnasio from './components/SectionGimnasio';
 import Contacto from './components/Contacto';
-import BotonSubir from './components/BotonSubir';
 
 function App() {
   return (
     <div>
         <Navbar/>
-        <BotonSubir/>
+        
         <Hero/>
         <Cards/>
         <SectionLosBarcos/>
