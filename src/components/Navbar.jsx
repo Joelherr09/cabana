@@ -10,14 +10,21 @@ const Navbar = () => {
     }
 
   return (
-    <div className='flex items-center h-24 max-w-[1240px] w-full bg-[#1b1464] mx-auto px-5 text-white'>
+    <div className='flex items-center h-24 w-full bg-[#1b1464] mx-auto px-5 text-white'>
         <div className='w-full h-full flex object-contain'>        
             <img className='' src={Logo} alt="" />
         </div>
         <ul className='hidden md:flex'>
-            <li className='p-4'>Inmobiliaria</li>
-            <li className='p-4'>Constructora</li>
-            <li className='p-4'>Gimnasio</li>
+            <a href="/#cabana">
+                <li className='p-4 hover:scale-105 duration-300 '>Cabañas</li>
+            </a>
+            <a href="/#constructora">
+                <li className='p-4 hover:scale-105 duration-300'>Constructora</li>
+            </a>
+            <a href="/#gimnasio">
+                <li className='p-4 hover:scale-105 duration-300'>Gimnasio</li>
+            </a>
+            
         </ul>
 
 
@@ -32,11 +39,16 @@ const Navbar = () => {
             <div className='w-full h-24 flex object-contain'>        
                 <img className='h-full' src={Logo} alt="" />
             </div>
-                <ul className='p-4 uppercase'>
-                    <li className='p-4 border-b border-gray-600'>Inicio</li>
-                    <li className='p-4 border-b border-gray-600'>Inmobiliaria</li>
-                    <li className='p-4 border-b border-gray-600'>Constructora</li>
-                    <li className='p-4'>Gimnasio</li>
+                <ul className='p-4 uppercase' >
+                    <a href="/#cabana" onClick={handleNav}>
+                        <li className='p-4 border-b border-gray-600'>Cabañas</li>
+                    </a>
+                    <a href="/#constructora" onClick={handleNav}>
+                        <li className='p-4 border-b border-gray-600'>Constructora</li>
+                    </a>
+                    <a href="/#gimnasio" onClick={handleNav}>
+                        <li className='p-4'>Gimnasio</li>
+                    </a>
                 </ul>
         </div>
     </div>

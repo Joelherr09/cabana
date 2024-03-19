@@ -7,7 +7,7 @@ import {
 
 const Footer = () => {
   return (
-    <div className='bg-[#1b1464]  text-white max-w-[1240px] mx-auto py-16 md:px-8 lg:px-16 px-4 grid lg:grid-cols-3 gap-8'>
+    <div className='bg-[#1b1464]  text-white w-full mx-auto py-16 md:px-8 lg:px-16 px-4 grid lg:grid-cols-3 gap-8'>
         <div>
             <p className='py-2'>Cuéntanos sobre tu negocio y marca, y asesórate con nosotros para potenciar tu negocio!</p>
             <div className='flex justify-between md:w-[75%] my-4'>
