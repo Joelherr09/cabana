@@ -5,8 +5,8 @@ import LosBarcos from '../assets/losbarcos-logo.png'
 
 const Cards = () => {
   return (
-    <div className='w-full py-[1rem] h-full'>
-        <div className='w-full py-[4rem] bg-[#1b1464] lg:w-[100%] md:w-[100%] sm:w-[100%] mx-auto grid md:grid-cols-3 sm:grid-cols-3'>
+    <div className='w-full pb-[1rem] h-full'>
+        <div className='w-full pb-[1rem] bg-[#1b1464] lg:w-[100%] md:w-[100%] sm:w-[100%] mx-auto grid md:grid-cols-3 sm:grid-cols-3'>
             <a href="/#cabana">
                 <div className='w-full flex flex-col p-4 my-4 hover:bg-[#443e82] hover:scale-105 duration-300'>
                     <img className='w-40 h-full mx-auto' src={LosBarcos} alt="/" />

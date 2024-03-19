@@ -75,3 +75,10 @@ body{
         margin: 0 auto;
     }
 }
+
+.navbar.fixed{
+    transition: .6s ease-in-out;
+    top: 0;
+    width: 100%;
+}
+
