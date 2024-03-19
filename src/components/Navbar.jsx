@@ -10,8 +10,8 @@ const Navbar = () => {
     }
 
   return (
-    <div className='flex items-center h-24 w-full bg-[#1b1464] mx-auto px-5 text-white'>
-        <div className='w-full h-full flex object-contain'>        
+    <div className='flex items-center justify-between px-52 h-24 w-full bg-[#1b1464] mx-auto text-white'>
+        <div className='w-full h-full flex '>        
             <img className='' src={Logo} alt="" />
         </div>
         <ul className='hidden md:flex'>
