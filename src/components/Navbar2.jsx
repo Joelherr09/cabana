@@ -19,14 +19,14 @@ const Navbar2 = () => {
                 setFix(false)
             }
         }
-
+        
     }
 
     window.addEventListener("scroll", setFixed);
 
   return (
-    <div className={fix ? 'navbar fixed' : 'hidden'}>
-            <div className='flex items-center sm:justify-between justify-center px-8 h-24 w-full border-b-2 bg-[#1b1464] mx-auto text-white'>
+    <div className={fix ? 'navbar fixed z-50' : 'hidden'}>
+            <div className='flex items-center sm:justify-between justify-center px-8 h-24 w-full  bg-[#1b1464] shadow-lg shadow-blue-500/50 mx-auto text-white'>
                 <div className='w-full h-full flex '>        
                     <img className='sm:visible invisible' src={Logo} alt="" />
                 </div>

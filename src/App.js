@@ -8,10 +8,18 @@ import SectionGimnasio from './components/SectionGimnasio';
 import Contacto from './components/Contacto';
 import BotonSubir from './components/BotonSubir';
 import Navbar2 from './components/Navbar2';
+import TextoNav from './components/TextoNav';
+import NuestrosServicios from './components/NuestrosServicios';
 
 function App() {
   return (
+
+    
+
     <div>
+        
+
+        <TextoNav/>
         <Cards/>
         <Navbar2/>
         <BotonSubir/>
@@ -20,7 +28,9 @@ function App() {
         <SectionLosBarcos/>
         <SectionConstructora/>
         <SectionGimnasio/>
+        <NuestrosServicios/>
         <Contacto/>
+
         <Footer/>
     </div>
   );

@@ -23,6 +23,8 @@ function handleClick() {
 
 
 
+
+
 const BotonSubir = () => {
 
     useEffect(() => {
@@ -40,9 +42,29 @@ const BotonSubir = () => {
         };
       }, []);
 
+
+        useEffect(() => {
+    // Encapsula la lógica del IntersectionObserver dentro del useEffect
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach((entry) => {
+        console.log(entry);
+        if (entry.isIntersecting) {
+          entry.target.classList.add('mostrar');
+        } else {
+          entry.target.classList.remove('mostrar');
+        }
+      });
+    });
+
+    const hiddenElements = document.querySelectorAll('.esconder');
+    hiddenElements.forEach((el) => observer.observe(el));
+  }, []);
+
+  // Resto de su código React
+
   return (
     <div>
-        <div className="boton-subir-contenedor">
+        <div className="boton-subir-contenedor ">
             <div className="boton-subir">
             <ImArrowUp color='white'/>
 
