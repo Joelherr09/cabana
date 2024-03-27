@@ -1,4 +1,5 @@
 import React from 'react'
+import Logo from '../assets/logo.jpg'
 import {
     FaFacebookSquare,
     FaInstagram,
@@ -7,33 +8,18 @@ import {
 
 const Footer = () => {
   return (
-    <div className='bg-[#1b1464]  text-white w-full mx-auto py-16 md:px-8 lg:px-16 px-4 grid lg:grid-cols-3 gap-8'>
-        <div>
-            <p className='py-2'>Cuéntanos sobre tu negocio y marca, y asesórate con nosotros para potenciar tu negocio!</p>
-            <div className='flex justify-between md:w-[75%] my-4'>
-                <FaFacebookSquare size={30}/>
-                <FaInstagram size={30}/>
-                <FaTwitterSquare size={30}/>
+    <div className='bg-[#1b1464]  text-white w-full mx-auto md:px-8 lg:px-16 px-4'>
+        <div className='md:w-[600px] mx-auto'>
+            <div className='w-[180px] h-[180px] flex mx-auto'>        
+                <img className='' src={Logo} alt="" />
             </div>
-        </div>
-        <div className='lg:col-span-2 flex justify-between mt-6 mx-auto gap-[4rem]'>
-            <div>
-                <ul className='flex flex-col gap-3'>
-                    <li className='py2 text-sm'>Precio</li>
-                    <li className='py2 text-sm'>Documentación</li>
-                    <li className='py2 text-sm'>Guías</li>
-                    <li className='py2 text-sm'>Mantenimiento</li>
-                </ul>
+            <p className='py-2 text-center text-xl text-bold'>Te invitamos a disfrutar de nuestros servicios!</p>
+            <div className='flex justify-evenly my-4'>
+                <FaFacebookSquare className='hover:scale-105 duration-300 hover:shadow-lg hover:shadow-blue-500/50' size={30}/>
+                <FaInstagram className='hover:scale-105 duration-300 hover:shadow-lg hover:shadow-blue-500/50 rounded-lg' size={30}/>
+                <FaTwitterSquare className='hover:scale-105 duration-300 hover:shadow-lg hover:shadow-blue-500/50' size={30}/>
             </div>
-            <div>
-                <ul className='flex flex-col gap-3'>
-                    <li className='py2 text-sm'>Precio</li>
-                    <li className='py2 text-sm'>Documentación</li>
-                    <li className='py2 text-sm'>Guías</li>
-                    <li className='py2 text-sm'>Mantenimiento</li>
-                </ul>
-            </div>
-
+            <p className='text-lg text-center py-4'>© 2024 Playa Norte. All Rights Reserved</p>
         </div>
     </div>
   )
