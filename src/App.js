@@ -10,6 +10,7 @@ import BotonSubir from './components/BotonSubir';
 import Navbar2 from './components/Navbar2';
 import TextoNav from './components/TextoNav';
 import NuestrosServicios from './components/NuestrosServicios';
+import Galeria from './components/Galeria';
 
 function App() {
   return (
@@ -29,8 +30,9 @@ function App() {
         <SectionConstructora/>
         <SectionGimnasio/>
         <NuestrosServicios/>
-        <Contacto/>
 
+        <Contacto/>
+        <Galeria/>
         <Footer/>
     </div>
   );
